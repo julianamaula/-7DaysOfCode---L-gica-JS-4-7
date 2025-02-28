@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JOGO</title>
+</head>
+<body>
+    <div class="caixa-conteudo">
+        <h1>Tente Acertar o Número Correto!</h1>
+        <form id="guessForm">
+            <div class="form-container">
+                <input
+                    class="caixa-input"
+                    type="number"
+                    id="userGuess"
+                    required
+                    placeholder="Digite um número entre 0 e 10"
+                />
+                <button class="botao" type="submit">Enviar</button>
+            </div>
+        </form>
+        <div class="mensagem-final" id="message"></div>
+        <button class="botao reiniciar" id="reiniciarBtn" style="display: none;">Reiniciar</button>
+        <img
+            class="ia"
+            src="/assests/o-que-e-inteligencia-artificial-1.png"
+            alt="IA"
+        />
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
