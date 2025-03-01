@@ -1,7 +1,15 @@
 
 # 🎮 Tente Acertar o Número Correto! 
 
+
+
 Bem-vindo ao **Tente Acertar o Número Correto**! Este é um projeto simples e divertido onde o jogador tenta adivinhar um número aleatório entre 0 e 10. O jogo foi desenvolvido para ser responsivo e fácil de usar, com uma interface amigável e interações dinâmicas.
+
+
+<div align="center">
+  <img width="50%" height="50%" class="ia" src="https://github.com/user-attachments/assets/2b4ea65b-5c04-43fc-9783-747cc32baef1" alt="Captura de Tela do Jogo" />
+</div>
+
 
 ## 🚀 Introdução
 
@@ -14,6 +22,8 @@ Este projeto foi desenvolvido para praticar conceitos de **HTML**, **CSS** e **J
 ## 🛠️ Tecnologias Utilizadas
 
 Aqui estão as principais tecnologias e ferramentas utilizadas no desenvolvimento deste projeto:
+
+![My Skills](https://skillicons.dev/icons?i=js,html,css,git,github)
 
 - **HTML5**: Estruturação da página e elementos do jogo.
 - **CSS3**: Estilização e design responsivo para uma boa experiência em qualquer dispositivo.
@@ -80,7 +90,7 @@ Se você tiver dúvidas ou sugestões, sinta-se à vontade para abrir uma **issu
 
 ## 📄 Licença
 
-Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](https://github.com/julianamaula/-7DaysOfCode---L-gica-JS-4-7/blob/main/LICENSE) para mais detalhes.
 
 ---
 
@@ -93,13 +103,16 @@ Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE)
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por **[Seu Nome]**.
+Feito com ❤️ por **Juliana de Maula**.
 
-- GitHub: [@seu-usuario](https://github.com/julianamaula)
-- LinkedIn: [Seu Nome](https://www.linkedin.com/in/juliana-de-maula)
 
----
+ [![github (1)](https://github.com/user-attachments/assets/b00d055f-82f4-4c97-85e1-986068f5e264)](https://github.com/julianamaula) [![linkedin (2)](https://github.com/user-attachments/assets/044bc6c2-c1e9-4f04-8979-71f95d9f6c66)](https://www.linkedin.com/in/juliana-de-maula/)
 
-###  📹Video demonstrativo
+ 
 
-<video controls src="Tente Acertar o Número Correto.mp4" title="Title"></video>
+
+
+
+
+
+
