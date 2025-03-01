@@ -1,5 +1,5 @@
 body {
-    background-image: URL("assests/Fundo_Jogo.jpg");
+    background-image: URL("./assests/Fundo_Jogo.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
