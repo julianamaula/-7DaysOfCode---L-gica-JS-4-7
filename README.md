@@ -106,7 +106,7 @@ Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](https://
 Feito com ❤️ por **Juliana de Maula**.
 
 
- ![github (1)](https://github.com/user-attachments/assets/b00d055f-82f4-4c97-85e1-986068f5e264) ![linkedin (2)](https://github.com/user-attachments/assets/044bc6c2-c1e9-4f04-8979-71f95d9f6c66)
+ [![github (1)](https://github.com/user-attachments/assets/b00d055f-82f4-4c97-85e1-986068f5e264)](https://github.com/julianamaula) [![linkedin (2)](https://github.com/user-attachments/assets/044bc6c2-c1e9-4f04-8979-71f95d9f6c66)](https://www.linkedin.com/in/juliana-de-maula/)
 
  
 
