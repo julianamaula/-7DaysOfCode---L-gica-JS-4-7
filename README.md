@@ -90,7 +90,7 @@ Se você tiver dúvidas ou sugestões, sinta-se à vontade para abrir uma **issu
 
 ## 📄 Licença
 
-Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](https://github.com/julianamaula/-7DaysOfCode---L-gica-JS-4-7/blob/main/LICENSE) para mais detalhes.
 
 ---
 
