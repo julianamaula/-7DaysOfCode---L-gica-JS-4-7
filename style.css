@@ -9,28 +9,30 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 40px;
-    color: rgb(249, 248, 250);
+    font-size: 2.5rem;
+    color: #fff;
     text-align: center;
     margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
 }
+
 form {
     width: 100%;
     max-width: 420px;
     display: block;
-    margin-top: 0em;
-    unicode-bidi: isolate;
+    margin-top: 0;
 }
-
 
 .ia {
     width: 90%;
     max-width: 600px;
     height: auto;
     margin: 20px 0;
+    animation: slideIn 1.5s ease-in-out;
 }
 
 .caixa-conteudo {
@@ -43,32 +45,33 @@ form {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .form-container {
     display: flex;
-    flex-direction: row; /* Botão ao lado do input */
+    flex-direction: row;
     align-items: center;
-    gap: 10px; /* Espaço entre o input e o botão */
+    gap: 10px;
     width: 100%;
 }
 
 .caixa-input {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    width: 100%; /* Ocupa o espaço disponível */
-    max-width: 400px; /* Aumentei a largura máxima */
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
     height: 40px;
     border-radius: 6px;
     border: 2px solid #fff;
     box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: border-color 0.3s;
+    transition: border-color 0.3s, box-shadow 0.3s;
     padding: 0 15px;
 }
 
 .caixa-input:focus {
-    border-color: transparent;
+    border-color: #04AA6D;
     outline: none;
+    box-shadow: 0 0 8px rgba(4, 170, 109, 0.6);
 }
 
 .botao {
@@ -78,65 +81,65 @@ form {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
+    font-size: 1rem;
+    transition: background-color 0.4s, transform 0.2s;
     cursor: pointer;
-    background-color: white;
-    color: black;
-    border: 2px solid transparent;
+    background-color: #04AA6D;
+    color: white;
     border-radius: 8px;
-    width: auto; /* Largura automática para o botão */
-   
+    width: auto;
 }
 
 .botao:hover {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #038857;
+    transform: scale(1.05);
 }
 
 .mensagem-final {
     text-align: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 1.25rem;
     padding: 10px;
     border-radius: 15px;
     margin-top: 20px;
     width: 100%;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .botao.reiniciar {
-    margin-top: 20px; /* Espaçamento acima do botão */
-    background-color: #42f917; /* Cor laranja para destacar */
+    margin-top: 20px;
+    background-color: #42f917;
     color: white;
 }
 
 .botao.reiniciar:hover {
-    background-color: #19c0e6; /* Cor mais escura no hover */
+    background-color: #19c0e6;
 }
 
-/* Responsive Styles */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
 @media (max-width: 768px) {
     h1 {
-        font-size: 30px;
-    }
-
-    .form-container {
-        max-width: 100%;
-       
+        font-size: 2rem;
     }
 
     .caixa-input {
-        font-size: 10px;
-        max-width: 100%; /* Ocupa toda a largura */
+        font-size: 0.9rem;
     }
 
     .botao {
-        
-        max-width: 50%;
+        font-size: 0.9rem;
     }
 
     .mensagem-final {
-        font-size: 20px;
+        font-size: 1rem;
     }
 }

@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>JOGO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jogo de adivinhação: acerte o número correto entre 0 e 10!">
+    <meta name="keywords" content="jogo, adivinhação, número, diversão">
+    <meta name="author" content="Juliana de Maula">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/assests/favicon.ico" type="image/x-icon">
+    <title>Jogo de Adivinhação</title>
 </head>
 <body>
     <div class="caixa-conteudo">
-        <h1>Tente Acertar o Número Correto!</h1>
+        <h1>Desafio do Número Misterioso</h1>
         <form id="guessForm">
             <div class="form-container">
                 <input
@@ -17,6 +21,8 @@
                     id="userGuess"
                     required
                     placeholder="Digite um número entre 0 e 10"
+                    min="0"
+                    max="10"
                 />
                 <button class="botao" type="submit">Enviar</button>
             </div>
