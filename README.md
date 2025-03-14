@@ -1,5 +1,5 @@
 
-# 🎮 Tente Acertar o Número Correto! 
+# 🎮 Desafio do Número Misterioso 
 
 
 
@@ -7,7 +7,7 @@ Bem-vindo ao **Tente Acertar o Número Correto**! Este é um projeto simples e d
 
 
 <div align="center">
-  <img width="50%" height="50%" class="ia" src="https://github.com/user-attachments/assets/2b4ea65b-5c04-43fc-9783-747cc32baef1" alt="Captura de Tela do Jogo" />
+  <img width="50%" height="50%" class="ia" src="https://github.com/user-attachments/assets/71b0dbbf-c40c-42a4-ad80-50e98acb4d80" alt="Captura de Tela do Jogo" />
 </div>
 
 
